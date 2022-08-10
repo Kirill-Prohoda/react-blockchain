@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html, body, #root, .center{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background: rgba(32, 96, 61, 0.37);
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    max-height: 400px;
+    margin: auto;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.list{
+
+}
+.item{
+    background: white;
+    margin: 5px 0 ;
+    padding: 0 10px;
+}
